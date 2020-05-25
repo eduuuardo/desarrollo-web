@@ -1,0 +1,35 @@
+/* reglas
+selectores
+declaraciones: todo lo que está dentro de las llaves
+propiedades:
+valores */
+
+/* Selector de etiqueta: 
+header - form - body - footer - figure */
+
+header {
+  background: rgb(33, 169, 211);
+}
+
+/* Selector descendente
+Un elemento hijo de algún otro elemento */
+
+body header div nav ol li a {
+  color: green;
+}
+
+/* Selector de clase o de ID 
+Una clase (class) es un atributo dentro de HTML, muchos elementos pueden tener el mismo estilo.
+Los elementos de ID son únicos, no pueden existir dos secciones con ese id */
+
+/*De clase*/
+
+.link {
+  color: yellow;
+}
+
+/*ID*/
+
+#portafolio {
+  font: 100;
+}
